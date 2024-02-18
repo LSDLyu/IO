@@ -1,0 +1,9 @@
+#!name=Adobe屏蔽
+#!desc=屏蔽所有，放行一个
+#!system=mac
+
+[Rule]
+# > Adobe.io
+DOMAIN-SUFFIX,adobe.io,REJECT
+DOMAIN,lcs-cops.adobe.io,DIRECT
+FINAL,Proxy,dns-failed
