@@ -1,4 +1,13 @@
+#!name=Adobe屏蔽
+#!desc=屏蔽所有，放行一个
+#!system=mac
+
+[General]
+
+force-http-engine-hosts = %APPEND% aliyun.example.com:0, quark.example.com:0, pikpak.example.com:0
+
 [Rule]
+
 # > Adobe.io
 DOMAIN-SUFFIX,adobe.io,REJECT
 DOMAIN,lcs-cops.adobe.io,DIRECT
