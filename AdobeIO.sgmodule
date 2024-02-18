@@ -1,5 +1,5 @@
-#!name=去除 keep 广告
-#!desc=可能需要重新安装Keep
+#!name=屏蔽Keep和Adobe无效功能
+#!desc=可能需要重新安装Keep；屏蔽Adobe所有，放行其他
 #!system=mac
 
 [Rule]
