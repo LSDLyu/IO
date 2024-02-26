@@ -6,6 +6,7 @@
 DOMAIN,httpdns.calorietech.com,REJECT
 DOMAIN-SUFFIX,adobe.io,REJECT
 DOMAIN,lcs-cops.adobe.io,DIRECT
+DOMAIN,cnbetacdn.com,DIRECT
 
 [URL Rewrite]
 ^https:\/\/api\.gotokeep\.com\/op-engine-webapp\/v1\/ad _ reject
